@@ -9,7 +9,7 @@ This page will eventually be a full guide to the pubs serving real ale that can 
 The idea came to a group of colleagues and fellow real ale enthusiasts after having had an enjoyable day out on the original and first [Transpennine Real Ale Trail] (http://www.realaletrail.net) made famous by Oz and James.
 
 
-
+- Halifax
 - Sowerby Bridge
 - Mytholmroyd
 - Hebden Bridge
@@ -23,6 +23,6 @@ The idea came to a group of colleagues and fellow real ale enthusiasts after hav
 - Moston
 - Manchester Victoria
 
-Eventually every stop on the trail will have its own page with dirctions, a map, contact details etc. And maybe we can even produce a .pdf or printable guide for those 'old school' types who don't want to be consulting their mobile every ten minutes.
+Eventually every stop on the trail will have its own page with directions, a map, contact details etc. And maybe we can even produce a .pdf or printable guide for those 'old school' types who don't want to be consulting their mobile every ten minutes.
 
 Collaboration is welcome, especially from someone who can port the Adobe Spark page into our 'own' HTML page.
