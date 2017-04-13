@@ -47,6 +47,49 @@ hr
 	border-top: 1px solid #ddd;
 }
 
+{
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  table td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+/*-----------------------------
 table
 {
 	background-color: transparent;
@@ -62,11 +105,12 @@ th, td
 	text-align: left;
 	border-bottom: 1px solid #ddd;
 }
+---------------------------*/
 
 a:link { color: royalblue; }
 a:visited { color: purple; }
 a:focus { color: black; }
-a:hover { color: yellow; }
+a:hover { color: green; }
 a:active { color: red; }
 
 /* -----------------------
@@ -145,7 +189,7 @@ Nav
 .nav a:hover
 {
 	color: white;
-	background-color: yellow;
+	background-color: blue;
 }
 
 .nav a:active
@@ -182,7 +226,7 @@ Single styles
 .btn:hover
 {
 	color: #fff !important;
-	background-color: yellow;
+	background-color: blue;
 }
 
 .btn:focus
@@ -223,6 +267,24 @@ Single styles
 	padding-right: 5px;
 	padding-left: 5px;
 }
+/* ------------------------
+Google Maps responsive bit from https://www.labnol.org/internet/embed-responsive-google-maps/28333/
+---------------------------*/
+.google-maps
+{
+  position: relative;
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.google-maps > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 
 /* -----------------------
 Wide styles
@@ -247,5 +309,32 @@ Wide styles
 		padding: 0;
 		border-bottom: 0;
 	}
+}
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
 }
 /* Styles courtesy of http://maxdesign.com.au/css-layouts/ */
