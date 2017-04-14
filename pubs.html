@@ -11,7 +11,7 @@
 		<meta name=Description lang=en content="From The Calder Valley Railway Ale Trail Webpage. Details of the pubs on the Calder Valley Railway Ale Trail. Designed to be mobile friendly with links to maps and the train times to the next stations on the trail.">
 		<meta name=author content="Mike_W">
 		<meta name=robots content="index, follow">
-		<!-- hide the analytics script for now....
+		<!--  analytics script for now.... -->
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,23 +22,17 @@
 			ga('send', 'pageview');
 
 		</script>
-	-->
+	<!-- ======================================-->
+
 		<title>The Calder Valley Railway Ale Trail - Pub Information</title>
 	</head>
 
 	<body>
-		<!--
-		<!-- hide the header
-		<div class=header>
-			<div class=container>
-				<h1 class=header-heading>Sitename</h1>
-			</div>
-		</div>
-	-->
 		<div class=nav-bar>
 			<div class=container>
 				<ul class=nav>
         		<li><a href="/index.html"> <i class="fa fa-beer" aria-hidden="true"></i></span> Home</a></li>
+						<li><a href="/pubs.html">Pubs</a></li>
 	        	<li><a href="/about.html">About</a></li>
         		<li><a href="/others.html">Other trails</a></li>
         		<li><a href="/contact.html">Contact</a></li>
@@ -56,20 +50,28 @@
 						<caption>Pub Details</caption>
 					<thead>
 					<tr>
-					<th id="Town" scope="col">Town</th>
-					<th id="Pub" scope="col">Pub</th>
-					<th id="Opening_Times" scope="col">Opening</th>
-					<th id="Map" scope="col">Map</th>
-					<th id="Trains" scope="col">Trains</th>
+					<th id="Town" scope="col" title="Name of Town or Station on the line">Town</th>
+					<th id="Pub" scope="col" title="Name, Webpage link, Address and Telephone Number of the pub">Pub</th>
+					<th id="Opening_Times" scope="col" title="Opening times of the pub, where known">Opening</th>
+					<th id="Map" scope="col" title="Directions on how to get to the pub from the station">Map</th>
+					<th id="Trains" scope="col" title="Train times from the station to other stations on the Calder Valley Line - Halifax to Manchester branch">Trains</th>
 					</tr>
 					</thead>
-					<tfoot><tr><th colspan="5">All information correct at time of publishing (April 2017) and will be updated occasioanlly, or when corrections received (use contact form or e-mail on the <a href="/contact.html">Contact</a> page).<br/> To check these times for yourself, please contact the pub via the links provided.</td></tr></tfoot>
+					<tfoot>
+						<tr>
+							<th colspan="5">
+								<p>All information correct at time of publishing (April 2017) and will be updated occasionally, or when corrections received.</p>
+								<p>Please use the contact form or e-mail on the <a href="/contact.html">Contact</a> page to let us know of any errors or bugs on the page.</p>
+								<p>Please feel free to check opening times etc - contact the pub via the links provided.</p>
+						</th>
+						</tr>
+					</tfoot>
 					<tbody>
 					<tr>
 						<th data-label="Town">Halifax</th>
-						<td data-label="Pub"><a href="http://railwayhotelhalifax.co.uk/contact-us/" title="The Railway Hotel website">The Railway Hotel</a>,<br/> 29 Horton Street, HX1 1QE. <br/><a href="tel:+441422351209" title="Phone the Railway Hotel">Tel: 01422 351 209</a></td>
+						<td data-label="Pub"><a href="http://railwayhotelhalifax.co.uk/contact-us/" title="The Railway Hotel website">The Railway Hotel</a>,<br> 29 Horton Street, <a href="https://goo.gl/maps/NaufXcmx64N2" title="Click on postcode for a Google map">HX1 1QE</a>. <br><a href="tel:+441422351209" title="Phone the Railway Hotel">Tel: 01422 351 209</a></td>
 						<td data-label="Opening">Contact for details</td>
-						<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/iGSEePUFJyF2">MAP</a></td>
+						<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/NaufXcmx64N2">MAP</a><br><small>[3 min, 0.1 mile]</small></td>
 						<td data-label="Trains">
 							<div class = "accordion">
 						    <div class="tab" title="Select next stop for train times...">
@@ -81,9 +83,9 @@
 										<a href="https://traintimes.org.uk/HFX/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
 										<a href="https://traintimes.org.uk/HFX/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
 										<a href="https://traintimes.org.uk/HFX/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
-										<a href="https://traintimes.org.uk/HFX/SMB/changes=0" title="Next train to Smithy Bridge">Smithy Bridge</a>
 										<a href="https://traintimes.org.uk/HFX/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
-										<a href="https://traintimes.org.uk/HFX/CAS/changes=0"title="Next train to Castleton">Castleton</a>
+										<a href="https://traintimes.org.uk/HFX/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+										<a href="https://traintimes.org.uk/MSO/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
 						      </div>
 								</div>
 						  </div>
@@ -91,9 +93,9 @@
 					</tr>
 					<tr>
 					<th data-label="Town">Sowerby Bridge</th>
-					<td data-label="Pub"><a href="http://www.jubileerefreshmentrooms.co.uk/">The Jubilee Refreshment Rooms</a>,<br/> Railway Station, HX6 3AB. <br/><a href="tel:+441422 648285">Tel: 01422 648285</a></td>
-					<td data-label="Opening">Mon - Fri: 09:30 to 21:30 (beer from 12:00)<br/>Sat: 09:00 to 21:30 (beer from 12:00)<br/>Sun: 12:00 to 21:00</td>
-					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/Eigg8YTM8Q32">MAP</a></td>
+					<td data-label="Pub"><a href="http://www.jubileerefreshmentrooms.co.uk/" title="The Jubilee Refreshment Rooms webpage">The Jubilee Refreshment Rooms</a>,<br> Railway Station, <a href="https://goo.gl/maps/Eigg8YTM8Q32" title="Click on postcode for a Google map">HX6 3AB</a>. <br><a href="tel:+441422 648285" title="Phone the Jubilee Refreshment Rooms">Tel: 01422 648285</a></td>
+					<td data-label="Opening">Mon - Fri: 09:30 to 21:30 (beer from 12:00)<br>Sat: 09:00 to 21:30 (beer from 12:00)<br>Sun: 12:00 to 21:00</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/Eigg8YTM8Q32">MAP</a><br><small>[1 min, 0.04 mile]</small></td>
 					<td data-label="Trains">
 						<div class = "accordion">
 							<div class="tab" title="Select next stop for train times...">
@@ -105,9 +107,9 @@
 									<a href="https://traintimes.org.uk/SOW/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
 									<a href="https://traintimes.org.uk/SOW/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
 									<a href="https://traintimes.org.uk/SOW/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
-									<a href="https://traintimes.org.uk/SOW/SMB/changes=0" title="Next train to Smithy Bridge">Smithy Bridge</a>
 									<a href="https://traintimes.org.uk/SOW/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
-									<a href="https://traintimes.org.uk/SOW/CAS/changes=0"title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/SOW/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MSO/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
 								</div>
 							</div>
 						</div>
@@ -115,9 +117,9 @@
 					</tr>
 					<tr>
 					<th data-label="Town">Sowerby Bridge</th>
-					<td data-label="Pub"><a href="http://hogsheadbrewhouse.co.uk/">The Hogs Head Brew House</a>,<br/> Stanley St, HX6 2AH. <br/><a href="tel:+441422 836585">Tel: 01422 836585</a></td>
-					<td data-label="Opening">Mon - Fri: 15:00 to 23:00<br/> Sat & Sun: 12:00 to 00:00</td>
-					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/iGSEePUFJyF2">MAP</a></td>
+					<td data-label="Pub"><a href="http://hogsheadbrewhouse.co.uk/" title="The Hogs Head Brew House webpage">The Hogs Head Brew House</a>,<br> Stanley St,<br><a href="https://goo.gl/maps/iGSEePUFJyF2" title="Click on postcode for a Google map">HX6 2AH</a>.<br><a href="tel:+441422 836585" title="Phone the Hogs Head Brew House">Tel: 01422 836585</a></td>
+					<td data-label="Opening">Mon - Fri: 15:00 to 23:00<br> Sat & Sun: 12:00 to 00:00</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/iGSEePUFJyF2">MAP</a><br><small>[1 min, 0.07 mile]<small></td>
 					<td data-label="Trains"><div class = "accordion">
 						<div class="tab" title="Select next stop for train times...">
 							<input id="tab-two" type="checkbox" name="tabs">
@@ -128,9 +130,9 @@
 								<a href="https://traintimes.org.uk/SOW/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
 								<a href="https://traintimes.org.uk/SOW/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
 								<a href="https://traintimes.org.uk/SOW/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
-								<a href="https://traintimes.org.uk/SOW/SMB/changes=0" title="Next train to Smithy Bridge">Smithy Bridge</a>
 								<a href="https://traintimes.org.uk/SOW/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
-								<a href="https://traintimes.org.uk/SOW/CAS/changes=0"title="Next train to Castleton">Castleton</a>
+								<a href="https://traintimes.org.uk/SOW/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+								<a href="https://traintimes.org.uk/MSO/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
 							</div>
 						</div>
 					</div>
@@ -138,9 +140,9 @@
 					</tr>
 					<tr>
 					<th data-label="Town">Mytholmroyd</th>
-					<td data-label="Pub"><a href="http://www.dustymillerinn.co.uk/">The Dusty Miller Inn</a>,<br/>Burnley Rd, HX7 5LH. <br/><a href="tel:+441422 885959">01422 885959</a></td>
+					<td data-label="Pub"><a href="http://www.dustymillerinn.co.uk/" title="The Dusty Miller Inn webpage">The Dusty Miller Inn</a>,<br>Burnley Rd,<br><a href="https://goo.gl/maps/RL6wne8FZ4P2" title="Click on postcode for a Google map">HX7 5LH</a>.<br><a href="tel:+441422 885959" title="Phone The Dusty Miller Inn">01422 885959</a></td>
 					<td data-label="Opening">Sun-Thu: 12:00 to 23:00<br>Fri & Sat: 12:00 to 23:45</td>
-					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/RL6wne8FZ4P2">MAP</a></td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/RL6wne8FZ4P2">MAP</a><br><small>[4 min, 0.2 mile]</small></td>
 					<td data-label="Trains">
 						<div class = "accordion">
 							<div class="tab" title="Select next stop for train times...">
@@ -152,9 +154,9 @@
 									<a href="https://traintimes.org.uk/MYT/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
 									<a href="https://traintimes.org.uk/MYT/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
 									<a href="https://traintimes.org.uk/MYT/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
-									<a href="https://traintimes.org.uk/MYT/SMB/changes=0" title="Next train to Smithy Bridge">Smithy Bridge</a>
 									<a href="https://traintimes.org.uk/MYT/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
-									<a href="https://traintimes.org.uk/MYT/CAS/changes=0"title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MYT/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MSO/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
 								</div>
 							</div>
 						</div>
@@ -162,9 +164,9 @@
 					</tr>
 					<tr>
 					<th data-label="Town">Mytholmroyd</th>
-					<td data-label="Pub"><a href="http://shoulderofmuttonmytholmroyd.co.uk/">The Shoulder of Mutton</a>,<br/>New Road, HX7 5DZ.<br/><a href="tel:+441422 883165">01422 883165</a></td>
+					<td data-label="Pub"><a href="http://shoulderofmuttonmytholmroyd.co.uk/" title="The Shoulder of Mutton webpage">The Shoulder of Mutton</a>,<br>New Road,<br><a href="https://goo.gl/maps/KXnvYNzcASE2 title="Click on postcode for a Google map"">HX7 5DZ</a>.<br><a href="tel:+441422 883165" title="Phone The Shoulder of Mutton">01422 883165</a></td>
 					<td data-label="Opening">Mon-Fri: 12:00-15:00/17:00-21:00<br>Sat & Sun: 12:00 to 21:00</td>
-					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/KXnvYNzcASE2">MAP</a></td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/KXnvYNzcASE2">MAP</a><br><small>[3 min, 0.1 mile]</small></td>
 					<td data-label="Trains">
 						<div class = "accordion">
 							<div class="tab" title="Select next stop for train times...">
@@ -176,9 +178,9 @@
 									<a href="https://traintimes.org.uk/MYT/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
 									<a href="https://traintimes.org.uk/MYT/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
 									<a href="https://traintimes.org.uk/MYT/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
-									<a href="https://traintimes.org.uk/MYT/SMB/changes=0" title="Next train to Smithy Bridge">Smithy Bridge</a>
 									<a href="https://traintimes.org.uk/MYT/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
-									<a href="https://traintimes.org.uk/MYT/CAS/changes=0"title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MYT/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MSO/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
 								</div>
 							</div>
 						</div>
@@ -186,70 +188,286 @@
 					</tr>
 					<tr>
 					<th data-label="Town">Hebden Bridge</th>
-					<td data-label="Pub"><a href="http://oldgatehebden.co.uk/contact/">The Old Gate</a>,<br/>1-5 Old Gate, HX7 8JP.<br/><a href="+441422 843993">01422 843993</a> </td>
-					<td data-label="Opening">Mon-Sat: 10:00 to 21:00><br/>Sun: 12:00 to 19:00</td>
-					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/XNDrkabf9xP2">MAP</a></td>
-					<td data-label="Trains">Links to train departures</td>
+					<td data-label="Pub"><a href="http://www.parcelbar.co.uk/" title="Parcel Bar at Hebden Bridge Station">Parcel Bar</a>,<br>The Parcel Office<br><a href="https://goo.gl/maps/7kRZ365aPgR2" title="Click on postcode for a Google map">HX7 6JE</a>.<br><a href="+441422 843993" title="Phone The Old Gate">01422 843993</a> </td>
+					<td data-label="Opening">Summer Only<br>Fri 16:00-21:30<br>Sat 16:00-21:30PM</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/7kRZ365aPgR2">MAP</a><br><small>[0 min, 0 mile]</small></td>
+					<td data-label="Trains">
+						<div class = "accordion">
+							<div class="tab" title="Select next stop for train times...">
+								<input id="tab-four" type="checkbox" name="tabs">
+								<label for="tab-four">Hebden Bridge</label>
+								<div class="tab-content">
+									<a href="https://traintimes.org.uk/HBD/HFX/changes=0" title="Next train to Halifax">Halifax</a>
+									<a href="https://traintimes.org.uk/HBD/SOW/changes=0" title="Next train to Sowerby Bridge">Sowerby Bridge</a>
+									<a href="https://traintimes.org.uk/HBD/MYT/changes=0" title="Next train to Mytholmroyd">Mytholmroyd</a>
+									<a href="https://traintimes.org.uk/HBD/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
+									<a href="https://traintimes.org.uk/HBD/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
+									<a href="https://traintimes.org.uk/HBD/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
+									<a href="https://traintimes.org.uk/HBD/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MSO/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
+								</div>
+							</div>
+						</div>
+					</td>
+					</tr>
+					<tr>
+					<th data-label="Town">Hebden Bridge</th>
+					<td data-label="Pub"><a href="https://www.facebook.com/Calansmicropub/" title="Calan's micropub FaceBook page">Calan's micropub</a>,<br>3 The Courtyard, Bridge Gate,<br><a href="https://goo.gl/maps/DYLbnaL8mRk" title="Click on postcode for a Google map"></a>.<br><a href="+441422 843993" title="Phone The Old Gate">01422 843993</a> </td>
+					<td data-label="Opening">Weds-Sun 12:00 to 22:00<br>Closed Tues</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/DYLbnaL8mRk">MAP</a><br><small>[9 min, 0.5 mile]</small></td>
+					<td data-label="Trains">
+						<div class = "accordion">
+							<div class="tab" title="Select next stop for train times...">
+								<input id="tab-four" type="checkbox" name="tabs">
+								<label for="tab-four">Hebden Bridge</label>
+								<div class="tab-content">
+									<a href="https://traintimes.org.uk/HBD/HFX/changes=0" title="Next train to Halifax">Halifax</a>
+									<a href="https://traintimes.org.uk/HBD/SOW/changes=0" title="Next train to Sowerby Bridge">Sowerby Bridge</a>
+									<a href="https://traintimes.org.uk/HBD/MYT/changes=0" title="Next train to Mytholmroyd">Mytholmroyd</a>
+									<a href="https://traintimes.org.uk/HBD/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
+									<a href="https://traintimes.org.uk/HBD/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
+									<a href="https://traintimes.org.uk/HBD/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
+									<a href="https://traintimes.org.uk/HBD/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MSO/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
+								</div>
+							</div>
+						</div>
+					</td>
+					</tr>
+					<tr>
+					<th data-label="Town">Hebden Bridge</th>
+					<td data-label="Pub"><a href="http://oldgatehebden.co.uk/contact/" title="The Old Gate webpage">The Old Gate</a>,<br>1-5 Old Gate, <a href="https://goo.gl/maps/XNDrkabf9xP2" title="Click on postcode for a Google map">HX7 8JP</a>.<br><a href="+441422 843993" title="Phone The Old Gate">01422 843993</a> </td>
+					<td data-label="Opening">Mon-Sat: 10:00 to 21:00<br>Sun: 12:00 to 19:00</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/XNDrkabf9xP2">MAP</a><br><small>[9 min, 0.5 mile]</small></td>
+					<td data-label="Trains">
+						<div class = "accordion">
+							<div class="tab" title="Select next stop for train times...">
+								<input id="tab-four" type="checkbox" name="tabs">
+								<label for="tab-four">Hebden Bridge</label>
+								<div class="tab-content">
+									<a href="https://traintimes.org.uk/HBD/HFX/changes=0" title="Next train to Halifax">Halifax</a>
+									<a href="https://traintimes.org.uk/HBD/SOW/changes=0" title="Next train to Sowerby Bridge">Sowerby Bridge</a>
+									<a href="https://traintimes.org.uk/HBD/MYT/changes=0" title="Next train to Mytholmroyd">Mytholmroyd</a>
+									<a href="https://traintimes.org.uk/HBD/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
+									<a href="https://traintimes.org.uk/HBD/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
+									<a href="https://traintimes.org.uk/HBD/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
+									<a href="https://traintimes.org.uk/HBD/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MSO/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
+								</div>
+							</div>
+						</div>
+					</td>
 					</tr>
 					<tr>
 					<th data-label="Town">Todmorden</th>
-					<td data-label="Pub"><a href = "http://www.queenhoteltodmorden.co.uk/">The Queen Hotel</a>,<br/>Rise Lane, OL14 7AA.<br/><a href="tel:+441706819917"></a>01706819917</td>
+					<td data-label="Pub"><a href = "http://www.queenhoteltodmorden.co.uk/" title="The Queen Hotel webpage">The Queen Hotel</a>,<br>Rise Lane, <a href="https://goo.gl/maps/cYmkjuyi8At" title="Click on postcode for a Google map">OL14 7AA</a>.<br><a href="tel:+441706819917" title="Phone The Queen Hotel">01706819917</a></td>
 					<td data-label="Opening">Contact for details.</td>
-					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/cYmkjuyi8At">MAP</a></td>
-					<td data-label="Trains">Links to train departures</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/cYmkjuyi8At">MAP</a><br><small>[1 min, 0 mile]</small></td>
+					<td data-label="Trains">
+						<div class = "accordion">
+							<div class="tab" title="Select next stop for train times...">
+								<input id="tab-five" type="checkbox" name="tabs">
+								<label for="tab-five">Todmorden</label>
+								<div class="tab-content">
+									<a href="https://traintimes.org.uk/TOD/HFX/changes=0" title="Next train to Halifax">Halifax</a>
+									<a href="https://traintimes.org.uk/TOD/SOW/changes=0" title="Next train to Sowerby Bridge">Sowerby Bridge</a>
+									<a href="https://traintimes.org.uk/TOD/MYT/changes=0" title="Next train to Mytholmroyd">Mytholmroyd</a>
+									<a href="https://traintimes.org.uk/TOD/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
+									<a href="https://traintimes.org.uk/TOD/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
+									<a href="https://traintimes.org.uk/TOD/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
+									<a href="https://traintimes.org.uk/TOD/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MSO/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
+								</div>
+							</div>
+						</div>
+					</td>
 					</tr>
 					<tr>
 					<th data-label="Town">Walsden</th>
-					<td data-label="Pub" colspan="4">Sadly, it appears that no pubs remain open in Walsden</td>
+					<td data-label="Pub" colspan="4">Sadly, it appears that no pubs serving Real Ale remain open within a short walk from Walsden Station. Please <a href="/about.html">contact us</a> if you know better, we would love to add the details here.</td>
 					</tr>
 					<tr>
 					<th data-label="Town">Littleborough</th>
-					<td data-label="Pub"></td>
-					<td data-label="Opening">Mon-Fri: 12:00 to 23:00<br>Sat: 12:00 to 23:00<br>Sun: Closed</td>
-					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/iGSEePUFJyF2">MAP</a></td>
-					<td data-label="Trains">Links to train departures</td>
+					<td data-label="Pub"><a href="http://www.telegraph.co.uk/foodanddrink/pubs/10218529/Pint-to-pint-The-Red-Lion-Littleborough-Lancashire.html" title="The Red Lion does not appear to have a website, here's review of the pub in The Daily Telegraph">The Red Lion</a>,<br>6 Halifax Rd,<br><a href="https://goo.gl/maps/vfqSTYPeJFN2" title="Click on postcode for a Google map"> OL15 0HB</a><br><a href="tel:+441706 378195" title="Phone the Red Lion">Tel: 01706 378195</a></td>
+					<td data-label="Opening">Mon - Thu: 15:00 - 23:00<br>Fri: 14:00 - 02:00<br>Sat: 12:00 - 02:00<br>Sun: 12:00 - 23:00</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/vfqSTYPeJFN2">MAP</a><br><small>[5 min, 0.2 mile]</small></td>
+					<td data-label="Trains">
+						<div class = "accordion">
+							<div class="tab" title="Select next stop for train times...">
+								<input id="tab-six" type="checkbox" name="tabs">
+								<label for="tab-six">Littleborough</label>
+								<div class="tab-content">
+									<a href="https://traintimes.org.uk/LTL/HFX/changes=0" title="Next train to Halifax">Halifax</a>
+									<a href="https://traintimes.org.uk/LTL/SOW/changes=0" title="Next train to Sowerby Bridge">Sowerby Bridge</a>
+									<a href="https://traintimes.org.uk/LTL/MYT/changes=0" title="Next train to Mytholmroyd">Mytholmroyd</a>
+									<a href="https://traintimes.org.uk/LTL/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
+									<a href="https://traintimes.org.uk/LTL/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
+									<a href="https://traintimes.org.uk/LTL/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
+									<a href="https://traintimes.org.uk/LTL/CAS/changes=0" title="Next train to Littleborough">Castleton</a>
+									<a href="https://traintimes.org.uk/LTL/MIH/changes=0" title="Next train to Mills Hill">Mills Hill</a>
+									<a href="https://traintimes.org.uk/LTL/MSO/changes=0" title="Next train to Moston">Moston</a>
+									<a href="https://traintimes.org.uk/LTL/MCV/changes=0" title="Next train to Manchester Victoria">Manchester Victoria</a>
+								</div>
+							</div>
+						</div>
+					</td>
+					</tr>
+					<tr>
+					<th data-label="Town">Littleborough</th>
+					<td data-label="Pub"><a href="https://www.facebook.com/The-Rake-Tapas-and-Hay-Rake-Brewery-136932129848111/" title="TThe Rake FaceBook page">The Rake Tapas (& Hay Rake Brewery)</a>,<br>Blackstone Old Road,<br><a href="https://goo.gl/maps/h5Mt2MD943r">OL15 0JX</a><br><a href="tel:+44 1706 379689" title="Phone the Rake">Tel: 01706 379689</a></td>
+					<td data-label="Opening">Mon - Thu 17:00 - 21:00<br>Thu 12:00 - 14:00<br>Fri - Sat 12:00 - 22:00<br>Sun 12:00 - 20:00</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/h5Mt2MD943r">MAP</a><br><small>[12 min, 0.5 mile]</small></td>
+					<td data-label="Trains">
+						<div class = "accordion">
+							<div class="tab" title="Select next stop for train times...">
+								<input id="tab-six" type="checkbox" name="tabs">
+								<label for="tab-six">Littleborough</label>
+								<div class="tab-content">
+									<a href="https://traintimes.org.uk/LTL/HFX/changes=0" title="Next train to Halifax">Halifax</a>
+									<a href="https://traintimes.org.uk/LTL/SOW/changes=0" title="Next train to Sowerby Bridge">Sowerby Bridge</a>
+									<a href="https://traintimes.org.uk/LTL/MYT/changes=0" title="Next train to Mytholmroyd">Mytholmroyd</a>
+									<a href="https://traintimes.org.uk/LTL/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
+									<a href="https://traintimes.org.uk/LTL/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
+									<a href="https://traintimes.org.uk/LTL/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
+									<a href="https://traintimes.org.uk/LTL/CAS/changes=0" title="Next train to Littleborough">Castleton</a>
+									<a href="https://traintimes.org.uk/LTL/MIH/changes=0" title="Next train to Mills Hill">Mills Hill</a>
+									<a href="https://traintimes.org.uk/LTL/MSO/changes=0" title="Next train to Moston">Moston</a>
+									<a href="https://traintimes.org.uk/LTL/MCV/changes=0" title="Next train to Manchester Victoria">Manchester Victoria</a>
+								</div>
+							</div>
+						</div>
+					</td>
 					</tr>
 					<tr>
 					<th data-label="Town">Smithy Bridge</th>
-					<td data-label="Pub"></td>
-					<td data-label="Opening">Mon-Fri: 12:00 to 23:00<br>Sat: 12:00 to 23:00<br>Sun: Closed</td>
-					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/iGSEePUFJyF2">MAP</a></td>
-					<td data-label="Trains">Links to train departures</td>
+					<td data-label="Pub" colspan="4">Sadly, it appears that no pubs serving Real Ale remain open within a short walk from Smithy Bridge Station. Please <a href="/about.html">contact us</a> if you know better, we would love to add the details here.</td>
 					</tr>
 					<tr>
 					<th data-label="Town">Rochdale</th>
-					<td data-label="Pub"></td>
-					<td data-label="Opening">Mon-Fri: 12:00 to 23:00<br>Sat: 12:00 to 23:00<br>Sun: Closed</td>
-					<td data-label="Map"></td>
-					<td data-label="Trains">Links to train departures</td>
+					<td data-label="Pub"><a href="http://www.thebaum.co.uk/" title="The Baum webpage">The Baum</a>,<br>33-37 Toad Lane (off Hunters Lane), OL12 0NU<br><a href="+441706 352 186" title="Phone the Baum">01706 352 186</a></td>
+					<td data-label="Opening">Mon-Thu: 11:00 to 23:00<br>Fri-Sat: 11:00 to 24:00<br>Sun: 11:30 to 23:30</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/L7QCwSczeuw">MAP</a><br><small>[19 min, 1 mile]</small></td>
+					<td data-label="Trains">
+						<div class = "accordion">
+							<div class="tab" title="Select next stop for train times...">
+								<input id="tab-eight" type="checkbox" name="tabs">
+								<label for="tab-eight">Rochdale</label>
+								<div class="tab-content">
+									<a href="https://traintimes.org.uk/RCD/HFX/changes=0" title="Next train to Halifax">Halifax</a>
+									<a href="https://traintimes.org.uk/RCD/SOW/changes=0" title="Next train to Sowerby Bridge">Sowerby Bridge</a>
+									<a href="https://traintimes.org.uk/RCD/MYT/changes=0" title="Next train to Mytholmroyd">Mytholmroyd</a>
+									<a href="https://traintimes.org.uk/RCD/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
+									<a href="https://traintimes.org.uk/RCD/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
+									<a href="https://traintimes.org.uk/RCD/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
+									<a href="https://traintimes.org.uk/RCD/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/RCD/MIH/changes=0" title="Next train to Mills Hill">Mills Hill</a>
+									<a href="https://traintimes.org.uk/RCD/MSO/changes=0" title="Next train to Moston">Moston</a>
+									<a href="https://traintimes.org.uk/RCD/MCV/changes=0" title="Next train to Manchester Victoria">Manchester Victoria</a>
+								</div>
+							</div>
+						</div>
+					</td>
+					</tr>
 					</tr>
 					<tr>
 					<th data-label="Town">Castleton</th>
-					<td data-label="Pub"><a href="https://www.facebook.com/TOPOAleHouse/">The Old Post Office Ale House</a>,<br/> Castleton OL11 2UY<br/><a href="+447740 837967">07740 837967</a></td>
+					<td data-label="Pub"><a href="https://www.facebook.com/TOPOAleHouse/" title="The Old Post Office Ale House FaceBook page">The Old Post Office Ale House</a>,<br> Castleton OL11 2UY<br><a href="+447740 837967" title="Phone The Old Post Office Ale House">07740 837967</a></td>
 					<td data-label="Opening">Mon-Fri: 12:00 to 23:00<br>Sat: 12:00 to 23:00<br>Sun: Closed</td>
-					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/iGSEePUFJyF2">MAP</a></td>
-					<td data-label="Trains">Links to train departures</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/iGSEePUFJyF2">MAP</a><br><small>[1 min, 0.07 mile]</small></td>
+					<td data-label="Trains">
+						<div class = "accordion">
+							<div class="tab" title="Select next stop for train times...">
+								<input id="tab-ten" type="checkbox" name="tabs">
+								<label for="tab-ten">Castleton</label>
+								<div class="tab-content">
+									<a href="https://traintimes.org.uk/CAS/HFX/changes=0" title="Next train to Halifax">Halifax</a>
+									<a href="https://traintimes.org.uk/CAS/SOW/changes=0" title="Next train to Sowerby Bridge">Sowerby Bridge</a>
+									<a href="https://traintimes.org.uk/CAS/MYT/changes=0" title="Next train to Mytholmroyd">Mytholmroyd</a>
+									<a href="https://traintimes.org.uk/CAS/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
+									<a href="https://traintimes.org.uk/CAS/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
+									<a href="https://traintimes.org.uk/CAS/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
+									<a href="https://traintimes.org.uk/CAS/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
+									<a href="https://traintimes.org.uk/CAS/MIH/changes=0" title="Next train to Mills Hill">Mills Hill</a>
+									<a href="https://traintimes.org.uk/CAS/MSO/changes=0" title="Next train to Moston">Moston</a>
+									<a href="https://traintimes.org.uk/CAS/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
+								</div>
+							</div>
+						</div>
+					</td>
 					</tr>
 					<tr>
 					<th data-label="Town">Mills Hill</th>
-					<td data-label="Pub"></td>
-					<td data-label="Opening">Mon-Fri: 12:00 to 23:00<br>Sat: 12:00 to 23:00<br>Sun: Closed</td>
-					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/iGSEePUFJyF2">MAP</a></td>
-					<td data-label="Trains">Links to train departures</td>
+					<td data-label="Pub"><a href="http://www.roseoflancaster.co.uk/">The Rose of Lancaster</a>,<br>7 Haigh Ln, OL1 2TQ<br><a href="tel:+441616243031">0161 624 3031</a></td>
+					<td data-label="Opening">Mon-Thu: 11:30 to 23:00<br>Fri-Sat: 11:30 to 23:30<br>Sun: 12:00 to 23:00</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/FG9KhuucUFv">MAP</a><br><small>[2 min, 0.2 mile]</small></td>
+					<td data-label="Trains">
+						<div class = "accordion">
+							<div class="tab" title="Select next stop for train times...">
+								<input id="tab-twelve" type="checkbox" name="tabs">
+								<label for="tab-twelve">Mills Hill</label>
+								<div class="tab-content">
+									<a href="https://traintimes.org.uk/MIH/HFX/changes=0" title="Next train to Halifax">Halifax</a>
+									<a href="https://traintimes.org.uk/MIH/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
+									<a href="https://traintimes.org.uk/MIH/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
+									<a href="https://traintimes.org.uk/MIH/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
+									<a href="https://traintimes.org.uk/MIH/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
+									<a href="https://traintimes.org.uk/MIH/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MIH/MSO/changes=0" title="Next train to Moston">Moston</a>
+									<a href="https://traintimes.org.uk/MIH/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
+								</div>
+							</div>
+						</div>
+					</td>
 					</tr>
 					<tr>
 					<th data-label="Town">Moston</th>
-					<td data-label="Pub">-</td>
-					<td data-label="Opening">Mon-Fri: 12:00 to 23:00<br>Sat: 12:00 to 23:00<br>Sun: Closed</td>
-					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/iGSEePUFJyF2">MAP</a></td>
-					<td data-label="Trains">Links to train departures</td>
+					<td data-label="Pub"><a href="http://www.jwlees.co.uk/locations/gardeners-arms1" title="The Gardeners Arms Webpage">The Gardeners Arms</a>,<br>Lightbowne Road, M40 5RZ<br><a href="tel:+44161 284 5499" title="Phone The Gardeners Arms">0161 284 5499</a></td>
+					<td data-label="Opening">Mon-Sun: 12:00 to 24:00<br>Occasional seasonal ales</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/VxKP4HK2bqn">MAP</a><br><small>[7 min, 0.3 mile]</small></td>
+					<td data-label="Trains">
+						<div class = "accordion">
+							<div class="tab" title="Select next stop for train times...">
+								<input id="tab-14" type="checkbox" name="tabs">
+								<label for="tab-14">Moston</label>
+								<div class="tab-content">
+									<a href="https://traintimes.org.uk/MSO/HFX/changes=0" title="Next train to Halifax">Halifax</a>
+									<a href="https://traintimes.org.uk/MSO/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
+									<a href="https://traintimes.org.uk/MSO/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
+									<a href="https://traintimes.org.uk/MSO/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
+									<a href="https://traintimes.org.uk/MSO/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
+									<a href="https://traintimes.org.uk/MSO/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MSO/MIH/changes=0" title="Next train to Mills Hill">Mills Hill</a>
+									<a href="https://traintimes.org.uk/MSO/MCV/changes=0"title="Next train to Manchester Victoria">Manchester Victoria</a>
+								</div>
+							</div>
+						</div>
+					</td>
 					</tr>
 					<tr>
 					<th data-label="Town">Manchester</th>
-					<td data-label="Pub">Station Bar</td>
-					<td data-label="Opening">Mon-Fri: 12:00 to 23:00<br>Sat: 12:00 to 23:00<br>Sun: Closed</td>
-					<td data-label="Map">@twitter</td>
-					<td data-label="Trains">Links to train departures</td>
+					<td data-label="Pub"><a href="http://thebeerhouseuk.com/locations/manchester-victoria/" title="The Beer House Bar & Kitchen webpage">The Beer House Bar & Kitchen<a/><br>Victoria Station, M3 1WY<br><a href="tel:+441618359586" title="Phone The Beer House Bar & Kitchen">0161 835 9586</a></td>
+					<td data-label="Opening">Mon-Thu: 07:30 to 23:00<br>Fri: 12:00 to 24:00<br>Sat: 08:30 to 24:00<br>Sun: 09:30 to 22:00</td>
+					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/EFAD1MLFU8o">MAP</a><br><small>[1 min, 0 mile]</small></td>
+					<td data-label="Trains">
+						<div class = "accordion">
+							<div class="tab" title="Select next stop for train times...">
+								<input id="tab-16" type="checkbox" name="tabs">
+								<label for="tab-16">Manchester Victoria</label>
+								<div class="tab-content">
+									<a href="https://traintimes.org.uk/MCV/HFX/changes=0" title="Next train to Halifax">Halifax</a>
+									<a href="https://traintimes.org.uk/MCV/SOW/changes=0" title="Next train to Sowerby Bridge">Sowerby Bridge</a>
+									<a href="https://traintimes.org.uk/MCV/MYT/changes=0" title="Next train to Mytholmroyd">Mytholmroyd</a>
+									<a href="https://traintimes.org.uk/MCV/HBD/changes=0" title="Next train to Hebden Bridge">Hebden Bridge</a>
+									<a href="https://traintimes.org.uk/MCV/TOD/changes=0" title="Next train to Todmorden">Todmorden</a>
+									<a href="https://traintimes.org.uk/MCV/LTL/changes=0" title="Next train to Littleborough">Littleborough</a>
+									<a href="https://traintimes.org.uk/MCV/RCD/changes=0" title="Next train to Rochdale">Rochdale</a>
+									<a href="https://traintimes.org.uk/MCV/CAS/changes=0" title="Next train to Castleton">Castleton</a>
+									<a href="https://traintimes.org.uk/MCV/MIH/changes=0" title="Next train to Mills Hill">Mills Hill</a>
+									<a href="https://traintimes.org.uk/MCV/MSO/changes=0" title="Next train to Moston">Moston</a>
+								</div>
+							</div>
+						</div>
+					</td>
 					</tr>
 					</tbody>
 					</table>

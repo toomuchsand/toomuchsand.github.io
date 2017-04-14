@@ -46,7 +46,6 @@ hr
 	border-top: 1px solid #ddd;
 }
 
-/*-----------------------------
 table
 {
 	background-color: transparent;
@@ -67,8 +66,8 @@ th, td
 a:link { color: royalblue; }
 a:visited { color: purple; }
 a:focus { color: black; }
-a:hover { color: green; }
-a:active { color: red; }
+a:hover { color: blue; }
+a:active { color: silver; }
 
 /* -----------------------
 Layout styles
@@ -153,7 +152,7 @@ Nav
 .nav a:active
 {
 	color: white;
-	background-color: red;
+	background-color: silver;
 }
 
 /* -----------------------
@@ -170,7 +169,8 @@ Single styles
 	display: inline-block;
 	padding: .5em 1em;
 	margin-bottom: 0;
-	font-weight: 400;
+	font-size: 1em;
+	font-weight: normal;
 	line-height: 1.2;
 	text-align: center;
 	white-space: nowrap;
@@ -243,15 +243,14 @@ Google Maps responsive bit from https://www.labnol.org/internet/embed-responsive
   height: 100% !important;
 }
 
-}
 .accordion {
-  float: right;
   width: 95%;
+	display: block;
 }
 /* Accordion original styles from https://codepen.io/raubaca/pen/PZzpVe */
 .tab {
   position: relative;
-	border-radius: .2em;
+	border: 1px solid transparent;
   width: 100%;
   color: #fff;
   overflow: hidden;
@@ -265,6 +264,8 @@ label {
   position: relative;
   display: block;
   padding: 0.5em 1em;
+	border: 1px solid transparent;
+	border-radius: .2em;
   background: royalblue;
   font-weight: normal;
   line-height: 1.2;
@@ -318,7 +319,7 @@ label::after {
   width: 1.2em;
   height: 1.2em;
   line-height: 1.2;
-	padding: 0.5em
+	padding: 0.5em;
   text-align: center;
   -webkit-transition: all .35s;
   -o-transition: all .35s;
@@ -326,7 +327,7 @@ label::after {
 }
 input[type=checkbox] + label::after {
   content: "\25B7";
-	padding: 0.5em
+	padding: 0.5em;
 }
 input[type=checkbox]:checked + label::after {
   transform: rotate(90deg);
@@ -361,9 +362,8 @@ table th {
   text-transform: uppercase;
 }
 
-
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px)
+{
   table {
     border: 0;
   }
@@ -407,7 +407,7 @@ table th {
 	.tab {
 		padding: .5em 1em;
 }
-
+}
 /* -----------------------
 Wide styles
 ------------------------*/
