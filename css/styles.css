@@ -1,7 +1,6 @@
 /* -----------------------
 Base styles
 ------------------------*/
-
 body
 {
 	margin: 0;
@@ -62,12 +61,13 @@ th, td
 	text-align: left;
 	border-bottom: 1px solid #ddd;
 }
+---------------------------*/
 
 a:link { color: royalblue; }
 a:visited { color: purple; }
 a:focus { color: black; }
-a:hover { color: green; }
-a:active { color: red; }
+a:hover { color: blue; }
+a:active { color: silver; }
 
 /* -----------------------
 Layout styles
@@ -134,6 +134,7 @@ Nav
 }
 
 .nav a:link { color: white; }
+
 .nav a:visited { color: white; }
 
 .nav a:focus
@@ -151,7 +152,7 @@ Nav
 .nav a:active
 {
 	color: white;
-	background-color: red;
+	background-color: silver;
 }
 
 /* -----------------------
@@ -168,7 +169,8 @@ Single styles
 	display: inline-block;
 	padding: .5em 1em;
 	margin-bottom: 0;
-	font-weight: 400;
+	font-size: 1em;
+	font-weight: normal;
 	line-height: 1.2;
 	text-align: center;
 	white-space: nowrap;
@@ -223,6 +225,9 @@ Single styles
 	padding-right: 5px;
 	padding-left: 5px;
 }
+/* ------------------------
+Google Maps responsive bit from https://www.labnol.org/internet/embed-responsive-google-maps/28333/
+---------------------------*/
 .google-maps
 {
   position: relative;
@@ -238,7 +243,171 @@ Single styles
   height: 100% !important;
 }
 
+.accordion {
+  width: 95%;
+	display: block;
+}
+/* Accordion original styles from https://codepen.io/raubaca/pen/PZzpVe */
+.tab {
+  position: relative;
+	border: 1px solid transparent;
+  width: 100%;
+  color: #fff;
+  overflow: hidden;
+}
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+label {
+  position: relative;
+  display: block;
+  padding: 0.5em 1em;
+	border: 1px solid transparent;
+	border-radius: .2em;
+  background: royalblue;
+  font-weight: normal;
+  line-height: 1.2;
+  cursor: pointer;
+	font-size: 1em;
+	text-align: left;
+}
+label:hover {
+	color: #fff !important;
+	background-color: blue;
+}
 
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  background: royalblue;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+}
+.tab-content p {
+  margin: 1em;
+}
+.tab-content a {
+	color: #fff !important;
+	background-color: grey;
+	display: block;
+	padding: .5em 1em;
+	margin-bottom: 0;
+	font-weight:  lighter;
+	line-height: 1.2;
+	text-align: right;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid;
+	text-decoration: none;
+}
+.tab-content a:hover {
+	background-color: dimgrey;
+}
+/* :checked */
+input:checked ~ .tab-content {
+  max-height: 100em;
+}
+/* Icon */
+label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 1.2em;
+  height: 1.2em;
+  line-height: 1.2;
+	padding: 0.5em;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+}
+input[type=checkbox] + label::after {
+  content: "\25B7";
+	padding: 0.5em;
+}
+input[type=checkbox]:checked + label::after {
+  transform: rotate(90deg);
+}
+
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px)
+{
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  table td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+	}
+	.tab {
+		padding: .5em 1em;
+}
+}
 /* -----------------------
 Wide styles
 ------------------------*/
@@ -263,4 +432,5 @@ Wide styles
 		border-bottom: 0;
 	}
 }
-/* Styles courtesy of http://maxdesign.com.au/css-layouts/ */
+
+/* Original styles courtesy of http://maxdesign.com.au/css-layouts/ */
