@@ -22,6 +22,15 @@
 			ga('send', 'pageview');
 
 		</script>
+		<script>
+			function myFunction() {
+				var tbody = document.getElementById('table-body'),
+      	childNodes = tbody.childNodes,
+  			i = childNodes.length;
+  				while (i--)
+						tbody.appendChild(childNodes[i]);
+  			}
+		</script>
 	<!-- ======================================-->
 
 		<title>The Calder Valley Railway Ale Trail - Pub Information</title>
@@ -49,6 +58,7 @@
 					<table title="Pub Details for the Calder Valley Railway Ale Trail" summary="Details of all pubs on the Calder Valley Railway Ale Trail - where known">
 						<caption>Pub Details</caption>
 					<thead>
+					<tr><button class ="btn" onclick="myFunction()">Reverse Order</button></tr>
 					<tr>
 					<th id="Town" scope="col" title="Name of Town or Station on the line">Town</th>
 					<th id="Pub" scope="col" title="Name, Webpage link, Address and Telephone Number of the pub">Pub</th>
@@ -66,7 +76,7 @@
 						</th>
 						</tr>
 					</tfoot>
-					<tbody>
+					<tbody id="table-body">
 					<tr>
 						<th data-label="Town">Halifax</th>
 						<td data-label="Pub"><a href="http://railwayhotelhalifax.co.uk/contact-us/" title="The Railway Hotel website">The Railway Hotel</a>,<br> 29 Horton Street, <a href="https://goo.gl/maps/NaufXcmx64N2" title="Click on postcode for a Google map">HX1 1QE</a>. <br><a href="tel:+441422351209" title="Phone the Railway Hotel">Tel: 01422 351 209</a></td>
@@ -366,7 +376,7 @@
 								</div>
 							</div>
 						</div>
-					
+
 					</td>
 					</tr>
 					<tr>
