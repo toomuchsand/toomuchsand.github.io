@@ -61,7 +61,7 @@ th, td
 	text-align: left;
 	border-bottom: 1px solid #ddd;
 }
----------------------------*/
+/*---------------------------*/
 
 a:link { color: royalblue; }
 a:visited { color: purple; }
@@ -231,7 +231,7 @@ Google Maps responsive bit from https://www.labnol.org/internet/embed-responsive
 .google-maps
 {
   position: relative;
-  padding-bottom: 75%; // This is the aspect ratio
+  padding-bottom: 75%; /* This is the aspect ratio */
   height: 0;
   overflow: hidden;
 }
