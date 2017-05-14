@@ -3,27 +3,34 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name=viewport content="width=device-width, initial-scale=1">
-		<meta name=Description lang=en content="Details of the towns, pubs and train times on the Calder Valley Railway Real Ale Trail. Click the links to see, pub website, maps of how to get to the pubs from the station, and to find out the time of the next train to your chosen next stop.">
+				<link rel="shortcut icon" href="./img/favicon.ico">
+				<link rel="stylesheet" type="text/css" href="./css/styles.css">
+				<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				<link rel="canonical" href="https://calder-vale-ale.uk/pubs.html">
+		<meta name=Description lang=en content="Details of the towns, pubs and train times on the Calder Valley Railway Real Ale Trail. Click the links to see maps of how to get to the pubs from the station and to find out the time of the next train to your chosen next stop.">
 		<meta name=author content="Mike_W">
 		<meta name=robots content="index, follow">
-		<link rel="shortcut icon" href="./img/favicon.ico">
-		<link rel="stylesheet" type="text/css" href="./css/styles.css">
-		<!--
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	-->
-		<link rel="canonical" href="https://calder-vale-ale.uk/pubs.html">
 		<!--  analytics script for now.... -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-93978129-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
 		<script>
 			function myFunction() {
 				var tbody = document.getElementById('table-body'),
-				childNodes = tbody.childNodes,
-				i = childNodes.length;
-					while (i--)
+      	childNodes = tbody.childNodes,
+  			i = childNodes.length;
+  				while (i--)
 						tbody.appendChild(childNodes[i]);
-				}
+  			}
 		</script>
-
 	<!-- ======================================-->
 
 		<title>The Calder Valley Railway Real Ale Trail - Town, Pub and Next Train Information</title>
@@ -47,18 +54,16 @@
 			<div class=container>
 				<div class=main>
 					<h1>Towns and Pubs on the Calder Valley Railway Real Ale Trail</h1>
-					<p>The following is a table of Towns and Pubs on the trail which are a short walk from each station. For most stops on the line there are a number of alternatives. It is not exhaustive, we may have missed some, and it will be added to or amended over time. Please use the contact form or email us if you have any comments, suggestions etc.</p>
-					<p>Click on the MAP button, or on the postcode link, for a google map from the station to the pub you are interested in.</p>
-					<p> Use the train times drop down to check when the next few trains are from your current station to any other station on the trail. That way you can decide if you have time for another pint, or just a half!</p>
+					<p>The following is a table of Towns and Pubs on the trail. Most are a short walk from each station. It is not exhaustive, we may have missed some, and it will be added to or amended over time. Please use the contact form or email us if you have any comments, suggestions etc.</p>
+					<p>Click on the MAP button for a google map from the station to the pub you are interested in.</p>
+					<p> Use the train times drop down to check when the next train is from your current station to any other station on the trail. That way you can decide if you have time for another pint, or just a half!</p>
 					<table title="Pub Details for the Calder Valley Railway Real Ale Trail" summary="Details of all pubs on the Calder Valley Railway Real Ale Trail - where known">
 						<caption title="Pub Details for the Calder Valley Railway Real Ale Trail">Pub Details <span class ="btn" onclick="myFunction()" title="Click this button to show the towns in reverse order."><small>Reverse Order</small></span> </caption>
 					<thead>
 					<tr>
-					<th id="Town" scope="col" title="Name of Town or Station on the line.">Town</th>
-					<th id="Pub" scope="col" title="Name of pub or bar, click on the name for the Webpage link.">Pub</th>
-					<th id="Address" scope="col" title="Postal address, with postcode of the pub. Click on the postcode for a map of the route from the station to the pub.">Address</th>
-					<th id="Phone" scope="col" title="Phone number of the pub.">Phone</th>
-					<th id="Opening" scope="col" title="Opening times of the pub, where known">Opening</th>
+					<th id="Town" scope="col" title="Name of Town or Station on the line">Town</th>
+					<th id="Pub" scope="col" title="Name, Webpage link, Address and Telephone Number of the pub">Pub</th>
+					<th id="Opening_Times" scope="col" title="Opening times of the pub, where known">Opening</th>
 					<th id="Map" scope="col" title="Directions on how to get to the pub from the station">Map</th>
 					<th id="Trains" scope="col" title="Train times from the station to other stations on the Calder Valley Line - Halifax to Manchester branch">Trains</th>
 					</tr>
@@ -66,9 +71,7 @@
 					<tbody id="table-body">
 					<tr>
 						<th data-label="Town" scope="row">Halifax</th>
-						<td data-label="Pub"><a href="http://railwayhotelhalifax.co.uk/contact-us/" title="click on the name to see the The Railway Hotel website">The Railway Hotel</a></td>
-						<td data-label="Address">29 Horton Street, <a class="postcode" href="https://goo.gl/maps/NaufXcmx64N2" title="Click on postcode for a Google map">HX1 1QE</a>.</td>
-						<td data-label="Phone"><a href="tel:+441422351209" title="Phone the Railway Hotel">01422 351 209</a></td>
+						<td data-label="Pub"><a href="http://railwayhotelhalifax.co.uk/contact-us/" title="click on the name to see the The Railway Hotel website">The Railway Hotel</a>,<br> 29 Horton Street, <a href="https://goo.gl/maps/NaufXcmx64N2" title="Click on postcode for a Google map">HX1 1QE</a>. <br><a href="tel:+441422351209" title="Phone the Railway Hotel">01422 351 209</a></td>
 						<td data-label="Opening">Contact for details</td>
 						<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/NaufXcmx64N2">MAP</a><br><small>[3 min, 0.1 mile]</small></td>
 						<td data-label="Trains">
@@ -92,9 +95,7 @@
 					</tr>
 					<tr>
 						<th data-label="Town" scope="row">Halifax</th>
-						<td data-label="Pub"><a href="http://victorian.beer/" title="click on the name to see the The Victorian Craft Beer Cafe website">The Victorian Craft Beer Cafe</a></td>
-						<td data-label="Address">18-22 Powell St, <a class="postcode" href="https://goo.gl/maps/8RGMsB8uGqw" title="Click on postcode for a Google map">HX1 1QE</a>.</td>
-						<td data-label="Phone"><a href="tel:+441422351209" title="Phone The Victorian Craft Beer Cafe">01422 351 209</a></td>
+						<td data-label="Pub"><a href="http://victorian.beer/" title="click on the name to see the The Victorian Craft Beer Cafe website">The Victorian Craft Beer Cafe</a>,<br> 18-22 Powell St, <a href="https://goo.gl/maps/8RGMsB8uGqw" title="Click on postcode for a Google map">HX1 1QE</a>. <br><a href="tel:+441422351209" title="Phone The Victorian Craft Beer Cafe">01422 351 209</a></td>
 						<td data-label="Opening">Mon-Thu: 11:00 to 23:00, Fri-Sat: 11:00 to 24:00, Sun: 11:00 to 22:00</td>
 						<td data-label="Map"><a title="Click to see a map of how to get to The Victorian Craft Beer Cafe from the station" class="btn" href="https://goo.gl/maps/8RGMsB8uGqw">MAP</a><br><small>[9 min, 0.4 mile]</small></td>
 						<td data-label="Trains">
@@ -118,9 +119,7 @@
 					</tr>
 					<tr>
 						<th data-label="Town" scope="row">Halifax</th>
-						<td data-label="Pub"><a href="https://www.facebook.com/pumproommicropub/" title="The Pump Room FaceBook page">The Pump Room</a></td>
-						<td data-label="Address">33 Northgate,<br><a class="postcode" href="https://goo.gl/maps/TUPZy7oBnqv" title="Click on postcode for a Google map">HX1 1UR</a>.</td>
-						<td data-label="Phone"><a href="tel:+447808 147575" title="Phone the Pump Room">07808 147575</a></td>
+						<td data-label="Pub"><a href="https://www.facebook.com/pumproommicropub/" title="The Pump Room FaceBook page">The Pump Room</a>,<br> 33 Northgate, <a href="https://goo.gl/maps/TUPZy7oBnqv" title="Click on postcode for a Google map">HX1 1UR</a>. <br><a href="tel:+447808 147575" title="Phone the Pump Room">07808 147575</a></td>
 						<td data-label="Opening">Wed-Sat: 12:00 to 23:00, Sun: 12:00 to 22:00, Mon-Tue: 14:00 to 21:00</td>
 						<td data-label="Map"><a title="Click to see a map of how to get to the Pump Room from the station" class="btn" href="https://goo.gl/maps/TUPZy7oBnqv">MAP</a><br><small>[10 min, 0.5 mile]</small></td>
 						<td data-label="Trains">
@@ -145,9 +144,7 @@
 
 					<tr>
 					<th data-label="Town" scope="row">Sowerby Bridge</th>
-					<td data-label="Pub"><a href="http://www.jubileerefreshmentrooms.co.uk/" title="The Jubilee Refreshment Rooms webpage">The Jubilee Refreshment Rooms</a>,</td>
-					<td data-label="Address">Railway Station, <a class="postcode" href="https://goo.gl/maps/Eigg8YTM8Q32" title="Click on postcode for a Google map">HX6 3AB</a>.</td>
-					<td data-label="Phone"><a href="tel:+441422648285" title="Phone the Jubilee Refreshment Rooms">01422 648285</a></td>
+					<td data-label="Pub"><a href="http://www.jubileerefreshmentrooms.co.uk/" title="The Jubilee Refreshment Rooms webpage">The Jubilee Refreshment Rooms</a>,<br> Railway Station, <a href="https://goo.gl/maps/Eigg8YTM8Q32" title="Click on postcode for a Google map">HX6 3AB</a>. <br><a href="tel:+441422648285" title="Phone the Jubilee Refreshment Rooms">01422 648285</a></td>
 					<td data-label="Opening">Mon - Fri: 09:30 to 21:30 (beer from 12:00)<br>Sat: 09:00 to 21:30 (beer from 12:00)<br>Sun: 12:00 to 21:00</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/Eigg8YTM8Q32">MAP</a><br><small>[1 min, 0.04 mile]</small></td>
 					<td data-label="Trains">
@@ -171,9 +168,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Sowerby Bridge</th>
-					<td data-label="Pub"><a href="http://hogsheadbrewhouse.co.uk/" title="The Hogs Head Brew House webpage">The Hogs Head Brew House</a></td>
-					<td data-label="Address"> Stanley St,<br><a class="postcode" href="https://goo.gl/maps/epPLKuuEtwT2" title="Click on postcode for a Google map">HX6 2AH</a>.</td>
-					<td data-label="Phone"><a href="tel:+441422836585" title="Phone the Hogs Head Brew House">01422 836585</a></td>
+					<td data-label="Pub"><a href="http://hogsheadbrewhouse.co.uk/" title="The Hogs Head Brew House webpage">The Hogs Head Brew House</a>,<br> Stanley St,<br><a href="https://goo.gl/maps/epPLKuuEtwT2" title="Click on postcode for a Google map">HX6 2AH</a>.<br><a href="tel:+441422836585" title="Phone the Hogs Head Brew House">01422 836585</a></td>
 					<td data-label="Opening">Mon - Fri: 15:00 to 23:00<br> Sat & Sun: 12:00 to 00:00</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://www.google.com/maps/d/viewer?mid=1Sl8_pKgoDTAgSWjhAQqJ3MAFnhg&usp=sharing">MAP</a><br><small>[12 min, 0.6 mile]</small></td>
 					<td data-label="Trains"><div class = "accordion">
@@ -196,9 +191,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Mytholmroyd</th>
-					<td data-label="Pub"><a href="http://www.dustymillerinn.co.uk/" title="The Dusty Miller Inn webpage">The Dusty Miller Inn</a></td>
-					<td data-label="Address">Burnley Rd,<br><a class="postcode" href="https://goo.gl/maps/RL6wne8FZ4P2" title="Click on postcode for a Google map">HX7 5LH</a>.</td>
-					<td data-label="Phone"><a href="tel:+441422885959" title="Phone The Dusty Miller Inn">01422 885959</a></td>
+					<td data-label="Pub"><a href="http://www.dustymillerinn.co.uk/" title="The Dusty Miller Inn webpage">The Dusty Miller Inn</a>,<br>Burnley Rd,<br><a href="https://goo.gl/maps/RL6wne8FZ4P2" title="Click on postcode for a Google map">HX7 5LH</a>.<br><a href="tel:+441422885959" title="Phone The Dusty Miller Inn">01422 885959</a></td>
 					<td data-label="Opening">Sun-Thu: 12:00 to 23:00<br>Fri & Sat: 12:00 to 23:45</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/RL6wne8FZ4P2">MAP</a><br><small>[4 min, 0.2 mile]</small></td>
 					<td data-label="Trains">
@@ -222,9 +215,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Mytholmroyd</th>
-					<td data-label="Pub"><a href="http://shoulderofmuttonmytholmroyd.co.uk/" title="The Shoulder of Mutton webpage">The Shoulder of Mutton</a></td>
-					<td data-label="Address">New Road,<br><a class="postcode" href="https://goo.gl/maps/KXnvYNzcASE2" title="Click on postcode for a Google map">HX7 5DZ</a>.</td>
-					<td data-label="Phone"><a href="tel:+441422883165" title="Phone The Shoulder of Mutton">01422 883165</a></td>
+					<td data-label="Pub"><a href="http://shoulderofmuttonmytholmroyd.co.uk/" title="The Shoulder of Mutton webpage">The Shoulder of Mutton</a>,<br>New Road,<br><a href="https://goo.gl/maps/KXnvYNzcASE2" title="Click on postcode for a Google map">HX7 5DZ</a>.<br><a href="tel:+441422883165" title="Phone The Shoulder of Mutton">01422 883165</a></td>
 					<td data-label="Opening">Mon-Fri: 12:00-15:00/17:00-21:00<br>Sat & Sun: 12:00 to 21:00</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/KXnvYNzcASE2">MAP</a><br><small>[3 min, 0.1 mile]</small></td>
 					<td data-label="Trains">
@@ -248,9 +239,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Hebden Bridge</th>
-					<td data-label="Pub"><a href="http://www.parcelbar.co.uk/" title="Parcel Bar at Hebden Bridge Station">Parcel Bar</a></td>
-					<td data-label="Address">The Parcel Office, <br><a class="postcode" href="https://goo.gl/maps/qAnD3KVEZET2" title="Click on postcode for a Google map">HX7 6JE</a>.</td>
-					<td data-label="Phone">-</td>
+					<td data-label="Pub"><a href="http://www.parcelbar.co.uk/" title="Parcel Bar at Hebden Bridge Station">Parcel Bar</a>,<br>The Parcel Office<br><a href="https://goo.gl/maps/qAnD3KVEZET2" title="Click on postcode for a Google map">HX7 6JE</a>.</td>
 					<td data-label="Opening">Summer Only<br>Fri 16:00-21:30<br>Sat 16:00-21:30PM</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/qAnD3KVEZET2">MAP</a><br><small>[0 min, 0 mile]</small></td>
 					<td data-label="Trains">
@@ -274,9 +263,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Hebden Bridge</th>
-					<td data-label="Pub"><a href="https://www.facebook.com/Calansmicropub/" title="Calan's micropub FaceBook page">Calan's micropub</a></td>
-					<td data-label="Address">3 The Courtyard, Bridge Gate,<br><a class="postcode" href="https://goo.gl/maps/DYLbnaL8mRk" title="Click on postcode for a Google map">HX7 8EX</a>.</td>
-					<td data-label="Phone"><a href="tel:+447739565983" title="Phone Calan's micropub">07739 565983</a></td>
+					<td data-label="Pub"><a href="https://www.facebook.com/Calansmicropub/" title="Calan's micropub FaceBook page">Calan's micropub</a>,<br>3 The Courtyard, Bridge Gate,<br><a href="https://goo.gl/maps/DYLbnaL8mRk" title="Click on postcode for a Google map">HX7 8EX</a>.<br><a href="tel:+447739565983" title="Phone Calan's micropub">07739 565983</a></td>
 					<td data-label="Opening">Weds-Sun 12:00 to 22:00<br>Closed Tues</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/DYLbnaL8mRk">MAP</a><br><small>[9 min, 0.5 mile]</small></td>
 					<td data-label="Trains">
@@ -300,9 +287,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Hebden Bridge</th>
-					<td data-label="Pub"><a href="http://oldgatehebden.co.uk/contact/" title="The Old Gate webpage">The Old Gate</a></td>
-					<td data-label="Address">1-5 Old Gate,<br><a class="postcode" href="https://goo.gl/maps/XNDrkabf9xP2" title="Click on postcode for a Google map">HX7 8JP</a>.</td>
-					<td data-label="Phone"><a href="tel:+441422843993" title="Phone The Old Gate">01422 843993</a></td>
+					<td data-label="Pub"><a href="http://oldgatehebden.co.uk/contact/" title="The Old Gate webpage">The Old Gate</a>,<br>1-5 Old Gate,<br><a href="https://goo.gl/maps/XNDrkabf9xP2" title="Click on postcode for a Google map">HX7 8JP</a>.<br><a href="tel:+441422843993" title="Phone The Old Gate">01422 843993</a></td>
 					<td data-label="Opening">Mon-Sat: 10:00 to 21:00<br>Sun: 12:00 to 19:00</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/XNDrkabf9xP2">MAP</a><br><small>[9 min, 0.5 mile]</small></td>
 					<td data-label="Trains">
@@ -326,9 +311,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Todmorden</th>
-					<td data-label="Pub"><a href = "http://www.queenhoteltodmorden.co.uk/" title="The Queen Hotel webpage">The Queen Hotel</a></td>
-					<td data-label="Address">Rise Lane,<br><a class="postcode" href="https://goo.gl/maps/cYmkjuyi8At" title="Click on postcode for a Google map">OL14 7AA</a>.</td>
-					<td data-label="Phone"><a href="tel:+441706819917" title="Phone The Queen Hotel">01706 819917</a></td>
+					<td data-label="Pub"><a href = "http://www.queenhoteltodmorden.co.uk/" title="The Queen Hotel webpage">The Queen Hotel</a>,<br>Rise Lane,<br><a href="https://goo.gl/maps/cYmkjuyi8At" title="Click on postcode for a Google map">OL14 7AA</a>.<br><a href="tel:+441706819917" title="Phone The Queen Hotel">01706 819917</a></td>
 					<td data-label="Opening">Contact for details.</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/cYmkjuyi8At">MAP</a><br><small>[1 min, 0 mile]</small></td>
 					<td data-label="Trains">
@@ -356,9 +339,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Littleborough</th>
-					<td data-label="Pub"><a href="http://www.telegraph.co.uk/foodanddrink/pubs/10218529/Pint-to-pint-The-Red-Lion-Littleborough-Lancashire.html" title="The Red Lion does not appear to have a website, here's review of the pub in The Daily Telegraph">The Red Lion</a></td>
-					<td data-label="Address">6 Halifax Rd,<br><a class="postcode" href="https://goo.gl/maps/vfqSTYPeJFN2" title="Click on postcode for a Google map">OL15 0HB</a></td>
-					<td data-label="Phone"><a href="tel:+441706378195" title="Phone the Red Lion">01706 378195</a></td>
+					<td data-label="Pub"><a href="http://www.telegraph.co.uk/foodanddrink/pubs/10218529/Pint-to-pint-The-Red-Lion-Littleborough-Lancashire.html" title="The Red Lion does not appear to have a website, here's review of the pub in The Daily Telegraph">The Red Lion</a>,<br>6 Halifax Rd,<br><a href="https://goo.gl/maps/vfqSTYPeJFN2" title="Click on postcode for a Google map">OL15 0HB</a><br><a href="tel:+441706378195" title="Phone the Red Lion">01706 378195</a></td>
 					<td data-label="Opening">Mon - Thu: 15:00 - 23:00<br>Fri: 14:00 - 02:00<br>Sat: 12:00 - 02:00<br>Sun: 12:00 - 23:00</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/vfqSTYPeJFN2">MAP</a><br><small>[5 min, 0.2 mile]</small></td>
 					<td data-label="Trains">
@@ -384,9 +365,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Littleborough</th>
-					<td data-label="Pub"><a href="https://www.facebook.com/The-Rake-Tapas-and-Hay-Rake-Brewery-136932129848111/" title="TThe Rake FaceBook page">The Rake Tapas (& Hay Rake Brewery)</a></td>
-					<td data-label="Address">Blackstone Old Road,<br><a class="postcode" href="https://goo.gl/maps/h5Mt2MD943r" title="Click on postcode for a Google map">OL15 0JX</a>.</td>
-					<td data-label="Phone"><a href="tel:+441706379689" title="Phone the Rake">01706 379689</a></td>
+					<td data-label="Pub"><a href="https://www.facebook.com/The-Rake-Tapas-and-Hay-Rake-Brewery-136932129848111/" title="TThe Rake FaceBook page">The Rake Tapas (& Hay Rake Brewery)</a>,<br>Blackstone Old Road,<br><a href="https://goo.gl/maps/h5Mt2MD943r">OL15 0JX</a><br><a href="tel:+441706379689" title="Phone the Rake">01706 379689</a></td>
 					<td data-label="Opening">Mon - Thu 17:00 - 21:00<br>Thu 12:00 - 14:00<br>Fri - Sat 12:00 - 22:00<br>Sun 12:00 - 20:00</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/h5Mt2MD943r">MAP</a><br><small>[12 min, 0.5 mile]</small></td>
 					<td data-label="Trains">
@@ -416,9 +395,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Rochdale</th>
-					<td data-label="Pub"><a href="http://www.theflyinghorsehotel.co.uk/" title="The Flying Horse Hotel webpage">The Flying Horse Hotel</a></td>
-					<td data-label="Address">37 Packer St,<br><a title="Click on the postcode for a Google map." class="postcode" href="https://goo.gl/maps/xyCnDwRawdJ2">OL16 1NJ</a></td>
-					<td data-label="Phone"><a href="tel:+441706 646412" title="Phone the Flying Horse">01706 646412</a></td>
+					<td data-label="Pub"><a href="http://www.theflyinghorsehotel.co.uk/" title="The Flying Horse Hotel webpage">The Flying Horse Hotel</a>,<br>37 Packer St, Rochdale OL16 1NJ<br><a href="tel:+441706 646412" title="Phone the Flying Horse">01706 646412</a></td>
 					<td data-label="Opening">Mon-Wed: 11:30 to 23:00<br>Fri-Sat: 11:30 to 02:00<br>Sun: 10:00 to 01:0</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/xyCnDwRawdJ2">MAP</a><br><small>[10 min, 0.5 mile]</small></td>
 					<td data-label="Trains">
@@ -444,9 +421,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Rochdale</th>
-					<td data-label="Pub"><a href="http://www.thebaum.co.uk/" title="The Baum webpage">The Baum</a></td>
-					<td data-label="Address">33-37 Toad Lane (off Hunters Lane), <br><a title="Click on the postcode for a Google map." class="postcode" href="https://goo.gl/maps/L7QCwSczeuw">OL12 0NU</td>
-					<td data-label="Phone"><a href="tel:+441706352186" title="Phone the Baum">01706 352 186</a></td>
+					<td data-label="Pub"><a href="http://www.thebaum.co.uk/" title="The Baum webpage">The Baum</a>,<br>33-37 Toad Lane (off Hunters Lane), OL12 0NU<br><a href="tel:+441706352186" title="Phone the Baum">01706 352 186</a></td>
 					<td data-label="Opening">Mon-Thu: 11:00 to 23:00<br>Fri-Sat: 11:00 to 24:00<br>Sun: 11:30 to 23:30</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/L7QCwSczeuw">MAP</a><br><small>[19 min, 1 mile]</small></td>
 					<td data-label="Trains">
@@ -473,9 +448,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Castleton</th>
-					<td data-label="Pub"><a href="https://www.facebook.com/TOPOAleHouse/" title="The Old Post Office Ale House FaceBook page">The Old Post Office Ale House</a></td>
-					<td data-label="Address">858 Manchester Rd,<br><a title="Click on the postcode for a Google map." class="postcode" href="https://goo.gl/maps/iGSEePUFJyF2">OL11 2UY</td>
-					<td data-label="Phone"><a href="tel:+447740837967" title="Phone The Old Post Office Ale House">07740 837967</a></td>
+					<td data-label="Pub"><a href="https://www.facebook.com/TOPOAleHouse/" title="The Old Post Office Ale House FaceBook page">The Old Post Office Ale House</a>,<br>858 Manchester Rd,<br>OL11 2UY<br><a href="tel:+447740837967" title="Phone The Old Post Office Ale House">07740 837967</a></td>
 					<td data-label="Opening">Mon-Fri: 12:00 to 23:00<br>Sat: 12:00 to 23:00<br>Sun: Closed</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/iGSEePUFJyF2">MAP</a><br><small>[1 min, 0.07 mile]</small></td>
 					<td data-label="Trains">
@@ -501,9 +474,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Mills Hill</th>
-					<td data-label="Pub"><a href="http://www.roseoflancaster.co.uk/">The Rose of Lancaster</a></td>
-					<td data-label="Address">7 Haigh Ln,<br><a title="Click on the postcode for a Google map." class="postcode" href="https://goo.gl/maps/FG9KhuucUFv">OL1 2TQ</td>
-					<td data-label="Phone"><a href="tel:+441616243031">0161 624 3031</a></td>
+					<td data-label="Pub"><a href="http://www.roseoflancaster.co.uk/">The Rose of Lancaster</a>,<br>7 Haigh Ln,<br>OL1 2TQ<br><a href="tel:+441616243031">0161 624 3031</a></td>
 					<td data-label="Opening">Mon-Thu: 11:30 to 23:00<br>Fri-Sat: 11:30 to 23:30<br>Sun: 12:00 to 23:00</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/FG9KhuucUFv">MAP</a><br><small>[2 min, 0.2 mile]</small></td>
 					<td data-label="Trains">
@@ -527,9 +498,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Moston</th>
-					<td data-label="Pub"><a href="http://www.jwlees.co.uk/locations/gardeners-arms1" title="The Gardeners Arms Webpage">The Gardeners Arms</a></td>
-					<td data-label="Address">Lightbowne Road, <a title="Click on the postcode for a Google map." class="postcode" href="https://goo.gl/maps/VxKP4HK2bqn">M40 5RZ</td>
-					<td data-label="Phone"><a href="tel:+441612845499" title="Phone The Gardeners Arms">0161 284 5499</a></td>
+					<td data-label="Pub"><a href="http://www.jwlees.co.uk/locations/gardeners-arms1" title="The Gardeners Arms Webpage">The Gardeners Arms</a>,<br>Lightbowne Road, M40 5RZ<br><a href="tel:+441612845499" title="Phone The Gardeners Arms">0161 284 5499</a></td>
 					<td data-label="Opening">Mon-Sun: 12:00 to 24:00<br>Occasional seasonal ales</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/VxKP4HK2bqn">MAP</a><br><small>[7 min, 0.3 mile]</small></td>
 					<td data-label="Trains">
@@ -553,9 +522,7 @@
 					</tr>
 					<tr>
 					<th data-label="Town" scope="row">Manchester</th>
-					<td data-label="Pub"><a href="http://thebeerhouseuk.com/locations/manchester-victoria/" title="The Beer House Bar & Kitchen webpage">The Beer House Bar & Kitchen</a></td>
-					<td data-label="Address">Victoria Station,<br><a title="Click on the postcode for a Google map." class="postcode" href="https://goo.gl/maps/EFAD1MLFU8o">M3 1WY</td>
-					<td data-label="Phone"><a href="tel:+441618359586" title="Phone The Beer House Bar & Kitchen">0161 835 9586</a></td>
+					<td data-label="Pub"><a href="http://thebeerhouseuk.com/locations/manchester-victoria/" title="The Beer House Bar & Kitchen webpage">The Beer House Bar & Kitchen</a><br>Victoria Station,<br>M3 1WY<br><a href="tel:+441618359586" title="Phone The Beer House Bar & Kitchen">0161 835 9586</a></td>
 					<td data-label="Opening">Mon-Thu: 07:30 to 23:00<br>Fri: 12:00 to 24:00<br>Sat: 08:30 to 24:00<br>Sun: 09:30 to 22:00</td>
 					<td data-label="Map"><a title="Click to see a map of how to get here from the station" class="btn" href="https://goo.gl/maps/EFAD1MLFU8o">MAP</a><br><small>[1 min, 0 mile]</small></td>
 					<td data-label="Trains">
@@ -582,7 +549,7 @@
 					</tbody>
 					<tfoot>
 						<tr>
-							<th colspan="7">
+							<th colspan="5">
 								<p>All information correct at time of publishing (April 2017) and will be updated occasionally, or when corrections received.</p>
 								<p>Please use the contact form or e-mail on the <a href="/contact.html">Contact</a> page to let us know of any errors or bugs on the page.</p>
 								<p>Please feel free to check opening times etc - contact the pub via the links provided.</p>
@@ -606,15 +573,5 @@
 			</ul>
 		</div>
 	</div>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-93978129-1', 'auto');
-		ga('send', 'pageview');
-
-	</script>
 	</body>
 </html>
