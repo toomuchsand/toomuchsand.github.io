@@ -1,10 +1,10 @@
 # Calder Vale Railway Real Ale Trail
 
-This page will be an alternative to the [Transpennine Real Ale Trail] (http://www.realaletrail.net/). A fork of it if you like haha!
+This page is an alternative to the [Transpennine Real Ale Trail] (http://www.realaletrail.net/). A fork of it if you like haha!
 
 It is a rough guide, a work in progress, based on the Halifax to Manchester branch of the [Calder Valley Railway Line] (https://en.wikipedia.org/wiki/Calder_Valley_line).
 
-This page will eventually be a full guide to the pubs serving real ale that can be found on the Western end of the Calder Valley Railway Line, on the leg from Halifax to Manchester Victoria.
+This page is becoming a full guide to the pubs serving real ale that can be found on the Western end of the Calder Valley Railway Line, on the leg from Halifax to Manchester Victoria.
 
 The idea came to a group of colleagues and fellow real ale enthusiasts after having had an enjoyable day out on the original and first [Transpennine Real Ale Trail] (http://www.realaletrail.net) made famous by Oz and James.
 
