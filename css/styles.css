@@ -164,7 +164,7 @@ Single styles
 .btn
 {
 	color: #fff !important;
-	background-color: royalblue;
+	background-color: blue;
 	border-color: #222;
 	display: inline-block;
 	padding: .5em 1em;
@@ -181,10 +181,28 @@ Single styles
 	text-decoration: none;
 }
 
+.btn_green
+{
+	color: #fff;
+	background-color: darkgreen;
+}
+
+.btn_amber
+{
+	color: #fff;
+	background-color: darkorange;
+}
+
+.btn_red
+{
+	color: #fff;
+	background-color: red;
+}
+
 .btn:hover
 {
 	color: #fff !important;
-	background-color: blue;
+	background-color: royalblue;
 }
 
 .btn:focus
@@ -197,6 +215,24 @@ Single styles
 {
 	color: #fff !important;
 	background-color: red;
+}
+
+.btn_green:hover
+{
+  color: #fff !important;
+	background-color: green;
+}
+
+.btn_amber:hover
+{
+	color: #fff;
+	background-color: orange;
+}
+
+.btn_red:hover
+{
+	color: #fff;
+	background-color: orangered;
 }
 
 .table
@@ -266,7 +302,7 @@ label {
   padding: 0.5em 1em;
 	border: 1px solid transparent;
 	border-radius: .2em;
-  background: royalblue;
+  background: blue;
   font-weight: normal;
   line-height: 1.2;
   cursor: pointer;
@@ -275,13 +311,13 @@ label {
 }
 label:hover {
 	color: #fff !important;
-	background-color: blue;
+	background-color: royalblue;
 }
 
 .tab-content {
   max-height: 0;
   overflow: hidden;
-  background: royalblue;
+  background: blue;
   -webkit-transition: max-height .35s;
   -o-transition: max-height .35s;
   transition: max-height .35s;
